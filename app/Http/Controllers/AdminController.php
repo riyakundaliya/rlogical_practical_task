@@ -37,6 +37,7 @@ class AdminController extends Controller
                     ->rawColumns(['action','image'])
                     ->make(true);
         }
+       
         return view('home');
       
     }
